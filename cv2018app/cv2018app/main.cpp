@@ -1,9 +1,16 @@
 #include "header.h"
 
-void mail(){
+void main() {
 
-	cout << "Hi" << endl;
+	Facedetect faceDet;
+	faceDet.Init();
+	faceDet.Detect();
+	faceDet.UnInit();
 
+	Eyedetect eyeDet;
+	eyeDet.Init();
+	eyeDet.Detect();
+	eyeDet.UnInit();
+	
 	system("pause");
-
 }

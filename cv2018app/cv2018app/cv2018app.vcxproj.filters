@@ -18,9 +18,21 @@
     <ClCompile Include="main.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="Eyedetect.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Facedetect.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Facedetect.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Eyedetect.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
