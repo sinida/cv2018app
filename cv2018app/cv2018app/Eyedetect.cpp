@@ -14,7 +14,7 @@ int Eyedetect::Init() {
 	return 0;
 }
 
-int Eyedetect::Detect() {
+int Eyedetect::Detect(cv::Mat in_Img, vector<cv::Rect> &out_Vec) {
 	cout << "Eye Detect" << endl;
 	return 0;
 }

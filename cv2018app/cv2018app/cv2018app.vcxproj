@@ -147,12 +147,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Eyedetect.cpp" />
+    <ClCompile Include="Eyerecognition.cpp" />
     <ClCompile Include="Facedetect.cpp" />
+    <ClCompile Include="Facerecognition.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Eyedetect.h" />
+    <ClInclude Include="Eyerecognition.h" />
     <ClInclude Include="Facedetect.h" />
+    <ClInclude Include="Facerecognition.h" />
     <ClInclude Include="header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -8,16 +8,23 @@ void main() {
 	//cv::imshow("show a img", img);
 	//cv::waitKey(0);
 
-	vector<cv::Rect> facepos_que;
+	vector<cv::Rect> faceXY_que;
 	Facedetect faceDet;
 	faceDet.Init();
-	faceDet.Detect(img, facepos_que);
+	faceDet.Detect(img, faceXY_que);
 	faceDet.UnInit();
 
+	vector<cv::Rect> eyeXY_que;
 	Eyedetect eyeDet;
 	eyeDet.Init();
-	eyeDet.Detect();
+	eyeDet.Detect(img, eyeXY_que);
 	eyeDet.UnInit();
 	
+
+	Facerecogition faceID;
+	faceID.Init();
+	faceID.UnInit();
+
+
 	system("pause");
 }

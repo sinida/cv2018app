@@ -24,6 +24,12 @@
     <ClCompile Include="Facedetect.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="Facerecognition.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Eyerecognition.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -33,6 +39,12 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Eyedetect.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Facerecognition.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Eyerecognition.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
