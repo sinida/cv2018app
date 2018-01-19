@@ -1,6 +1,6 @@
 //
 #include "Facedetect.h"
-
+#include "opencv2\opencv.hpp"
 Facedetect::Facedetect() {
 
 }
@@ -14,7 +14,7 @@ int Facedetect::Init() {
 	return 0;
 }
 
-int Facedetect::Detect() {
+int Facedetect::Detect(cv::Mat in_Img, vector<cv::Rect> &out_Vec) {
 	cout << "Face Detect" << endl;
 	return 0;
 }

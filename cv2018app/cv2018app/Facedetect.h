@@ -2,6 +2,7 @@
 #pragma once
 
 #include <iostream>
+#include "opencv2\opencv.hpp"
 
 using namespace std;
 
@@ -15,7 +16,7 @@ public:
 	~Facedetect();
 
 	int Init();
-	int Detect();
+	int Detect(cv::Mat in_Img, vector<cv::Rect> &out_Vec);
 	int UnInit();
 
 };
