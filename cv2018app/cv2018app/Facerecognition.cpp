@@ -1,31 +1,31 @@
 #include "Facerecognition.h"
 
-Facerecogition::Facerecogition(){
+Facerecognition::Facerecognition(){
 
 }
 
-Facerecogition::~Facerecogition(){
+Facerecognition::~Facerecognition(){
 
 }
 
-int Facerecogition::Init(){
+int Facerecognition::Init(){
 
 	return 0;
 }
 
 
-int Facerecogition::Enroll(cv::Mat in_Img, cv::Rect in_Rect, int &out_ID){
+int Facerecognition::Enroll(cv::Mat in_Img, cv::Rect in_Rect, int &out_ID){
 
 	return 0;
 }
 
 
-int Facerecogition::Matching(cv::Mat in_Img, cv::Rect in_Rect){
+int Facerecognition::Matching(cv::Mat in_Img, cv::Rect in_Rect){
 
 	return 0;
 }
 
-int Facerecogition::UnInit(){
+int Facerecognition::UnInit(){
 
 	return 0;
 }

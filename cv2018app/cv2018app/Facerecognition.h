@@ -5,14 +5,14 @@
 
 using namespace std;
 
-class Facerecogition {
+class Facerecognition {
 
 private:
 
 
 public:
-	Facerecogition();
-	~Facerecogition();
+	Facerecognition();
+	~Facerecognition();
 
 	int Init();
 	

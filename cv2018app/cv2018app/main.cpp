@@ -21,9 +21,13 @@ void main() {
 	eyeDet.UnInit();
 	
 
-	Facerecogition faceID;
+	Facerecognition faceID;
 	faceID.Init();
 	faceID.UnInit();
+
+	Eyerecognition eyeID;
+	eyeID.Init();
+	eyeID.UnInit();
 
 
 	system("pause");
