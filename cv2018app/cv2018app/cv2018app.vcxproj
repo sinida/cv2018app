@@ -151,6 +151,7 @@
     <ClCompile Include="Facedetect.cpp" />
     <ClCompile Include="Facerecognition.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OpenCV_Facedetect\cvFaceDetect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Eyedetect.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="Facedetect.h" />
     <ClInclude Include="Facerecognition.h" />
     <ClInclude Include="header.h" />
+    <ClInclude Include="OpenCV_Facedetect\cvFaceDetect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
