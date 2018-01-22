@@ -25,7 +25,7 @@ void main() {
 
 	cv::Mat img;
 	img = cv::imread("Imagedata/facetest.jpg", 1);
-	cout << "img read in" << endl;
+
 	Facedetect faceDet;
 	Eyedetect eyeDet;
 	Facerecognition faceID;
@@ -38,23 +38,24 @@ void main() {
 		vector<cv::Rect> faceXY_que;
 		faceDet.Init();
 		faceDet.Detect(img, faceXY_que);
-		cout << "img face detect:" << faceXY_que.size() << endl;
 
-		//-- Eye detection
-		vector<cv::Rect> eyeXY_que;
-		eyeDet.Init();
-		eyeDet.Detect(img, eyeXY_que);
-		cout << "img eye detect:" << eyeXY_que.size() << endl;
+
+		////-- Eye detection
+		//vector<cv::Rect> eyeXY_que;
+		//eyeDet.Init();
+		//eyeDet.Detect(img, eyeXY_que);
+		//cout << "img eye detect:" << eyeXY_que.size() << endl;
 
 		//-- Draw face and eye position
 		face_draw(faceXY_que, img);
-		eye_draw(eyeXY_que, img);
-		cout << "img draw" << endl;
+		//eye_draw(eyeXY_que, img);
+
 
 		//-- Face recognition
 		faceID.Init();
-		//-- Eye recognition
-		eyeID.Init();
+		
+		////-- Eye recognition
+		//eyeID.Init();
 
 		cv::imshow("A Face image", img);
 		cv::waitKey(0);
