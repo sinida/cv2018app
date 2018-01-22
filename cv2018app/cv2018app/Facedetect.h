@@ -2,6 +2,8 @@
 #pragma once
 
 #include <iostream>
+#include <string>
+#include <vector>
 #include "opencv2\opencv.hpp"
 
 using namespace std;
@@ -9,7 +11,7 @@ using namespace std;
 class Facedetect {
 
 private:
-
+	cv::CascadeClassifier face_cascade;
 
 public:
 	Facedetect();
