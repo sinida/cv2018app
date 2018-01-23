@@ -10,6 +10,7 @@ class Eyedetect {
 
 private:
 
+	cv::CascadeClassifier eyes_cascade;
 
 public:
 	Eyedetect();

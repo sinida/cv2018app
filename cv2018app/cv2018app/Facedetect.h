@@ -10,6 +10,7 @@ class Facedetect {
 
 private:
 
+	cv::CascadeClassifier face_cascade;
 
 public:
 	Facedetect();
