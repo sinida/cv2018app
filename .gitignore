@@ -140,7 +140,7 @@ publish/
 *.[Pp]ublish.xml
 *.azurePubxml
 
-# TODO: Un-comment the next line if you do not want to checkin 
+# TODO: Un-comment the next line if you do not want to checkin
 # your web deploy settings because they may include unencrypted
 # passwords
 #*.pubxml
@@ -165,9 +165,6 @@ csx/
 # Microsoft Azure Emulator
 ecf/
 rcf/
-
-# Microsoft Azure ApplicationInsights config file
-ApplicationInsights.config
 
 # Windows Store app package directory
 AppPackages/
@@ -243,16 +240,3 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
-
-# custom .gitignore for pilotreport
-*.mp4
-tests/perf_SOTDB/Data/
-tests/perf_AEDB/FGNET/
-tests/perf_GCDB/lfw-originalPics/
-tests/perf_FDDB/originalPics/
-
-!3rdparty/opencv/bin/**
-!3rdparty/opencv/lib/**
-!3rdparty/boost/lib/**
-
-!apps/PilotReport/FaceU/**

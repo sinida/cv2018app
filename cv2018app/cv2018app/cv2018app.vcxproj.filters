@@ -13,15 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="OpenCV_FaceDetect">
+      <UniqueIdentifier>{51e2a3df-beb5-4743-b5dc-63408ced42d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="Eyedetect.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Facedetect.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Facerecognition.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Eyerecognition.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCV_Facedetect\cvFaceDetect.cpp">
+      <Filter>OpenCV_FaceDetect</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
       <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Facedetect.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Eyedetect.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Facerecognition.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Eyerecognition.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCV_Facedetect\cvFaceDetect.h">
+      <Filter>OpenCV_FaceDetect</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
